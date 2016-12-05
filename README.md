@@ -10,9 +10,18 @@
 
 ###FTP
 
-sudo apt-get install vsftpd
+>sudo apt-get install vsftpd
 
-edit: sudo nano /etc/vsftpd.conf
+>edit: sudo nano /etc/vsftpd.conf
 
 >write_enable=yes
 
+###Autorun python
+
+>create file run_python.sh
+
+>>\#! /bin/bash
+
+>>sudo python /home/pi/Desktop/main.py
+
+>chmod +x main.py
